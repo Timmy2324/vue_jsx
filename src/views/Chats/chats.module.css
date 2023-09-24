@@ -1,0 +1,11 @@
+.fullWidth {
+    width: 100%;
+}
+
+.scrollHead {
+    border-bottom: 1px solid #eee;
+}
+
+.scrollItem {
+    height: 50px;
+}

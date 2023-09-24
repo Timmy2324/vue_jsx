@@ -1,0 +1,38 @@
+.errorWrapper {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.text404 {
+    color: black;
+    font-size: 96px;
+}
+
+.gradient {
+    font-weight: bold;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #5c3c92);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 8s linear infinite;
+}
+
+.notFound {
+    font-size: 48px;
+}
+
+.picture {
+    font-size: 34px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
